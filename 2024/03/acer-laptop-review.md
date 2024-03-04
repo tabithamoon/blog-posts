@@ -3,11 +3,9 @@ Recently, I bought a new laptop as my old 8th Gen Dell Inspiron was... tired. It
 
 In its stead I got an Acer Aspire 5, specifically the model A515-57-58W1. This is a SKU specific to Brazil, with a few oddities in of itself:
 
-- It has no Windows license out of the box (pretty common in Brazil, since pirating Windows is so rampant customers tend to prefer buying a computer with Linux, saving a few bucks then installing a pirated copy of Windows), but instead of shipping with nothing in the drive or a standard Linux distro like Ubuntu, Acer ended up opting instead to ship with a distro I've never heard of: A so called "Linux Gutta", which I couldn't determine if it was an in house distro from Acer (I doubt it)
-
-- The CPU is an Intel Core **i5-12450H**, which is notable due to it being a H-series part. The equivalent American model has an i5-1235U, which is lower performance from it being a U-series chip.
-
-- It lacks the dedicated Nvidia graphics of the American model, opting to rely on the integrated Intel graphics instead.
+* It has no Windows license out of the box (pretty common in Brazil, since pirating Windows is so rampant customers tend to prefer buying a computer with Linux, saving a few bucks then installing a pirated copy of Windows), but instead of shipping with nothing in the drive or a standard Linux distro like Ubuntu, Acer ended up opting instead to ship with a distro I've never heard of: A so called "Linux Gutta", which I couldn't determine if it was an in house distro from Acer (I doubt it)
+* The CPU is an Intel Core **i5-12450H**, which is notable due to it being a H-series part. The equivalent American model has an i5-1235U, which is lower performance from it being a U-series chip.
+* It lacks the dedicated Nvidia graphics of the American model, opting to rely on the integrated Intel graphics instead.
 
 So right away this machine has an interesting proposition: Very upgradable with two SODIMM slots, socketed Wi-Fi chip, and dual M.2 NVMe slots, one straight from the CPU at PCI-E Gen 4 x4, and the other from the chipset, running at Gen 3 x4. Due to the fact that it shares the same CPU as its gaming bigger brother, the Nitro 5, and due to it having a Thunderbolt 4 port, it makes it a perfect eGPU gaming machine, which I planned on using it as.
 
@@ -21,13 +19,13 @@ After booting into the Fedora Workstation live environment and beginning the ins
 
 This tipped me off that something was definitely wrong, and I begun to investigate. Off I go flipping over this two hour old machine, taking the bottom screws off and popping off the bottom cover (and immediately snapping one or two plastic clips), and right away, what I saw simultaneously flabbergasted me and made me drop to the floor laughing:
 
-![where screw](https://files.tabby.page/posts/acer-laptop-review/missing-screws.jpg)
+[where screw](https://files.tabby.page/posts/acer-laptop-review/missing-screws.jpg)
 
 ### They forgot the heatsink screws.
 
 Having recovered from the laughter I confirmed that the screws were indeed never installed and didn't just rattle off during shipping by removing the heatsink entirely, revealing the S tier thermal paste spread:
 
-![excellent coverage](https://files.tabby.page/posts/acer-laptop-review/thermal-paste-job.jpg)
+[excellent coverage](https://files.tabby.page/posts/acer-laptop-review/thermal-paste-job.jpg)
 
 How did this machine pass QC like this? I'm surprised it survived the Clonezilla clone and the Fedora installation processes, I figured the bare part of the die would have burned up and killed it by then? I counted my lucky stars that the CPU came out unscathed, and pressed on.
 
