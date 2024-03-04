@@ -19,13 +19,13 @@ After booting into the Fedora Workstation live environment and beginning the ins
 
 This tipped me off that something was definitely wrong, and I begun to investigate. Off I go flipping over this two hour old machine, taking the bottom screws off and popping off the bottom cover (and immediately snapping one or two plastic clips), and right away, what I saw simultaneously flabbergasted me and made me drop to the floor laughing:
 
-<img src="https://files.tabby.page/posts/acer-laptop-review/missing-screws.jpg" alt="No screw to be found"/>
+[no screw 4 u]("https://files.tabby.page/posts/acer-laptop-review/missing-screws.jpg")
 
 ### They forgot the heatsink screws.
 
 Having recovered from the laughter I confirmed that the screws were indeed never installed and didn't just rattle off during shipping by removing the heatsink entirely, revealing the S tier thermal paste spread:
 
-<img src="https://files.tabby.page/posts/acer-laptop-review/thermal-paste-job.jpg" alt="Amazing spread and coverage"/>
+[Amazing spread and coverage](https://files.tabby.page/posts/acer-laptop-review/thermal-paste-job.jpg")
 
 How did this machine pass QC like this? I'm surprised it survived the Clonezilla clone and the Fedora installation processes, I figured the bare part of the die would have burned up and killed it by then? I counted my lucky stars that the CPU came out unscathed, and pressed on.
 
